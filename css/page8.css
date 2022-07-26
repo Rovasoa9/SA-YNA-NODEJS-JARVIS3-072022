@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'font1';
+    src: url(../font/courgette/Courgette-Regular.ttf);
+}
+@font-face {
+    font-family: 'font2';
+    src: url(../font/space-grotesk-cufonfonts/SpaceGrotesk-Regular.otf);
+}
+@font-face {
+    font-family: 'font3';
+    src: url(../font/rajdhani/Rajdhani-Bold.ttf);
+}
+
+/* PART1 */
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    nav .menu{
+        display: block;
+        margin-right: 10%;
+    }
+    .logohome1 {
+        display: block;
+        margin-left: 40%;
+    }
+    .btn {
+        width: 150%;
+    }
+    .figure {
+        margin-left: auto;
+        margin-top: -5%;
+        width: 30%;
+    }
+    .figcaption {
+        width: 61%;
+    }
+}

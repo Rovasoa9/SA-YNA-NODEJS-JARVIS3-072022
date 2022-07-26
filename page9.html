@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PAGE9 </title>
+    <link rel="stylesheet" href="./boostrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/stily.css">
+    <style>
+        .roud {
+            border-radius: 50px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        li {
+            color: rgba(0, 0, 0, 0.425);
+        }
+
+        li a {
+            color: rgba(0, 0, 0, 0.507);
+        }
+
+        li a:hover {
+            color: black;
+        }
+
+        li:hover {
+            animation: show 1.2s;
+            background: linear-gradient(rgb(101, 186, 197), rgb(111, 190, 141));
+            border-radius: 3px;
+        }
+
+        @keyframes show {
+            0% {
+                transform: translateZ(0);
+                opacity: 0.1;
+            }
+
+            50% {
+                transform: translateZ(3, 5);
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .bordure {
+
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
+            border-radius: 30px;
+            background-color: rgb(236, 230, 230);
+            border-top: 2px solid rgba(255, 255, 255, 0.596);
+        }
+
+        .bordure:hover {
+            border-top: 4px solid rgba(255, 255, 255, 0.521);
+            box-shadow: 1px 5px 8px 2px rgba(0, 0, 0, 0.377);
+            border-radius: 30px;
+            background-color: rgba(236, 230, 230, 0.671);
+        }
+
+        .bordure1 {
+
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.514);
+            border-radius: 7px;
+            background-color: rgb(209, 202, 202);
+        }
+    </style>
+</head>
+
+<body style="background: url(./images/google-home-on-table\ 2.jpg) no-repeat;">
+    <nav class="container-fluid">
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-2">
+                    <h1>LOGO</h1>
+                </div>
+                <div class="ms-auto col-3 d-flex justify-content-center align-items-center">
+                    <button type="button" class="bgt">
+                        <div class=" py-2 btn btn-dark"></div>
+                        <ul class="list-unstyled mt-4 mb-1 ">
+                            <li><a class="text-decoration-none " target="_parent" href=".//profile.html">Profile</a>
+                            </li>
+                            <li><a class="text-decoration-none " target="_parent" href=".//History.html">History</a>
+                            </li>
+                            <li><a class="text-decoration-none " target="_parent" href="">Invoice</a></li>
+                            <li><a class="text-decoration-none " target="_parent" href=".//help-center.html">Help
+                                    center</a></li>
+                            <li><a class="text-decoration-none " target="_parent" href=".//sign-out.html">Sign out</a>
+                            </li>
+                        </ul>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid mt-5 py-5">
+        <div class="container-fluid mt-5 py-5 d-flex justify-content-center align-items-center">
+            <div class="col-4 bordure">
+                <form class="d-flex flex-column align-items-center h-100" action="post">
+                    <div class="pb-4 pt-2">
+                        <h6>Votre admin a recus un email</h6>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-center">Vous allez recevoir un email dans quelque minutes. <br>
+                            Veuillez vérifier votre boite de spams.</p>
+                    </div>
+                    <div class="mb-1"><a class="text-decoration-none" href="">Se connecter</a></div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

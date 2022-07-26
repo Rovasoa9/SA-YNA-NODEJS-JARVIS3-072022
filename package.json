@@ -1,0 +1,15 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "projet jarvis",
+  "main": "api.js",
+  "scripts": {
+    "start": "nodemon api.js"
+  },
+  "author": "Rajaonary Nomena Rovasoa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

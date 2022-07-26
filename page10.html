@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PAGE10 </title>
+    <link rel="stylesheet" href="./boostrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/stily.css">
+    <style>
+        .roud {
+            border-radius: 50px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        li {
+            color: rgba(0, 0, 0, 0.425);
+        }
+
+        li a {
+            color: rgba(0, 0, 0, 0.507);
+        }
+
+        li a:hover {
+            color: black;
+        }
+
+        li:hover {
+            animation: show 1.2s;
+            background: linear-gradient(rgb(101, 186, 197), rgb(111, 190, 141));
+            border-radius: 3px;
+        }
+
+        @keyframes show {
+            0% {
+                transform: translateZ(0);
+                opacity: 0.1;
+            }
+
+            50% {
+                transform: translateZ(3, 5);
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .radius {
+            border-radius: 18px;
+        }
+
+        .radiusS {
+            border-radius: 22px;
+        }
+
+
+        .bla {
+            background-color: rgba(245, 245, 245, 0.637);
+        }
+
+        .bli {
+            background: linear-gradient(rgba(255, 255, 255, 0.459), rgba(128, 128, 128, 0.329));
+        }
+
+        .sp {
+            visibility: hidden;
+        }
+
+        .rok h5 a:hover {
+            animation: pouse 1s;
+        }
+
+        .rok:hover {
+            animation: kalo 1s;
+            cursor: pointer;
+        }
+
+        @keyframes kalo {
+            0% {
+                transform: translateZ(0);
+                opacity: 0.5;
+            }
+
+            50% {
+                transform: translateZ(0, 5);
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0.8;
+            }
+        }
+
+        @keyframes pouse {
+            0% {
+                transform: translateZ(1);
+                opacity: 0.5;
+            }
+
+            50% {
+                transform: translateZ(2);
+                opacity: 1;
+            }
+
+        }
+
+
+        .dspb {
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .dspn {
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="background: url(./images/google-home-on-table\ 2.jpg) no-repeat; background-color: #b2afa6;">
+    <nav class="container-fluid">
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-2">
+                    <h1>LOGO</h1>
+                </div>
+                <div class="ms-auto col-3 d-flex justify-content-center align-items-center">
+                    <button type="button" class="bgt">
+                        <div class=" py-2 btn btn-dark"></div>
+                        <ul class="list-unstyled mt-4 mb-1 ">
+                            <li><a class="text-decoration-none " target="_parent" href=".//page 11_16.html">Profile</a>
+                            </li>
+                            <li><a class="text-decoration-none " target="_parent" href=".//page 18.html">History</a>
+                            </li>
+                            <li><a class="text-decoration-none " target="_parent" href="/page 19.html">Invoice</a></li>
+                            <li><a class="text-decoration-none " target="_parent" href=".//page 17.html">Help
+                                    center</a></li>
+                            <li><a class="text-decoration-none " target="_parent" href=".//sign-out.html">Sign out</a>
+                            </li>
+                        </ul>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="container-fluid mt-4">
+            <div class="ms-1 mb-3">
+                <h2 class="fw-light">Bonjour ISAIA!</h2>
+            </div>
+            <div class="ms-1 row ">
+                <div class="col-3 rok bla gp py-3 me-5 d-flex justify-content-center align-items-center radius borderL">
+                    <h5 class="fw-normal"><a class="text-decoration-none text-black gp">Gérer mes pièces</a> </h5>
+                </div>
+                <div
+                    class="col-3 rok bla ga py-3  mx-5 d-flex justify-content-center align-items-center radius borderL">
+                    <h5 class="fw-normal"><a class="text-decoration-none text-black ga">Gérer mes appareils</a>
+                    </h5>
+                </div>
+                <div
+                    class="col-3 rok bla gr1 py-3 ms-5 d-flex justify-content-center align-items-center radius borderL">
+                    <h5 class="fw-normal gr1"><a class="text-decoration-none text-black gr1">Gérer les utilisateur</a>
+                    </h5>
+                </div>
+            </div>
+            <script src=".//js/1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE19</title>
+    <link rel="stylesheet" href="./boostrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/stily.css">
+    <style>
+        .roud {
+            border-radius: 50px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        li {
+            color: rgba(0, 0, 0, 0.425);
+        }
+
+        li a {
+            color: rgba(0, 0, 0, 0.507);
+        }
+
+        li a:hover {
+            color: black;
+        }
+
+        li:hover {
+            animation: show 1.2s;
+            background: linear-gradient(rgb(101, 186, 197), rgb(111, 190, 141));
+            border-radius: 3px;
+        }
+
+        @keyframes show {
+            0% {
+                transform: translateZ(0);
+                opacity: 0.1;
+            }
+
+            50% {
+                transform: translateZ(3, 5);
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body style="background: url(./images/google-home-on-table\ 2.jpg) no-repeat;">
+    <nav class="container-fluid">
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-2">
+                    <h1>LOGO</h1>
+                </div>
+                <div class="ms-auto col-3 d-flex justify-content-center align-items-center">
+                    <button type="button" class="bgt">
+                        <div class=" py-2 btn btn-dark"></div>
+                        <ul class="list-unstyled mt-4 mb-1 ">
+                            <li><a class="text-decoration-none " target="_parent" href="/jarvis/page 11_16.html">Profile</a>
+                            </li>
+                            <li><a class="text-decoration-none " target="_parent" href="/jarvis/page 18.html">History</a>
+                            </li>
+                            <li><a class="text-decoration-none " target="_parent" href="/jarvis/page 19.html">Invoice</a></li>
+                            <li><a class="text-decoration-none " target="_parent" href="/jarvis/page 17.html">Help
+                                    center</a></li>
+                            <li><a class="text-decoration-none " target="_parent" href="/jarvis/sign-out.html">Sign out</a>
+                            </li>
+                        </ul>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <div class="col-6">
+                <div>
+                    <h2>Facture</h2>
+                </div>
+                <div class="col-6">
+                    <a href="" class="row roud py-2 my-4 text-decoration-none text-black">
+                        <div class="col-6">
+                            <h5>3rd Month</h5>
+                        </div>
+                        <div class="col-3 ms-auto d-flex justify-content-center align-items-center"><button
+                                type="button" class="btn btn-dark"></button></div>
+                    </a>
+                    <a href="" class="row roud py-2 my-4 text-decoration-none text-black">
+                        <div class="col-6">
+                            <h5>2nd Month</h5>
+                        </div>
+                        <div class="col-3 ms-auto d-flex justify-content-center align-items-center"><button
+                                type="button" class="btn btn-dark"></button></div>
+                    </a>
+                    <a href="" class="row roud py-2 my-4 text-decoration-none text-black">
+                        <div class="col-6">
+                            <h5>1st Month</h5>
+                        </div>
+                        <div class="col-3 ms-auto d-flex justify-content-center align-items-center"><button
+                                type="button" class="btn btn-dark"></button></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
